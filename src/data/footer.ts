@@ -2,29 +2,20 @@ import type { IFooter } from "../types";
 
 export const footerData: IFooter[] = [
     {
-        title: "Product",
+        title: "Aya Cosméticos",
         links: [
-            { name: "Home", href: "#" },
-            { name: "Support", href: "#support" },
-            { name: "Pricing", href: "#pricing" },
-            { name: "Affiliate", href: "#affiliate" },
+            { name: "Inicio", href: "#" },
+            { name: "Productos", href: "#productos" },
+            { name: "Nosotros", href: "#nosotros" },
+            { name: "Contacto", href: "#contacto" },
         ]
     },
     {
-        title: "Resources",
+        title: "Síguenos",
         links: [
-            { name: "Company", href: "#company" },
-            { name: "Blogs", href: "#blogs" },
-            { name: "Community", href: "#community" },
-            { name: "Careers", href: "#careers" },
-            { name: "About", href: "#about" },
+            { name: "Instagram", href: "https://www.instagram.com/cosmeticos_aya/" },
+            { name: "Facebook", href: "https://www.facebook.com/cosmeticosaya2013" },
+            { name: "WhatsApp", href: "https://wa.me/573042412575" },
         ]
     },
-    {
-        title: "Legal",
-        links: [
-            { name: "Privacy", href: "#privacy" },
-            { name: "Terms", href: "#terms" },
-        ]
-    }
 ];

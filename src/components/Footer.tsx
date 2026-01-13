@@ -1,5 +1,5 @@
 import { footerData } from "../data/footer";
-import { DribbbleIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "lucide-react";
+import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 import { motion } from "motion/react";
 import type { IFooterLink } from "../types";
 import { Link } from "react-router-dom";
@@ -22,9 +22,23 @@ export default function Footer() {
                         <ul className="mt-2 space-y-2">
                             {section.links.map((link: IFooterLink, index: number) => (
                                 <li key={index}>
-                                    <Link to={link.href} className="hover:text-pink-600 transition">
-                                        {link.name}
-                                    </Link>
+                                    {link.href.startsWith("http") ? (
+                                        <a
+                                            href={link.href}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="hover:text-pink-600 transition"
+                                        >
+                                            {link.name}
+                                        </a>
+                                        ) : (
+                                        <Link
+                                            to={link.href}
+                                            className="hover:text-pink-600 transition"
+                                        >
+                                            {link.name}
+                                        </Link>
+                                        )}
                                 </li>
                             ))}
                         </ul>
@@ -37,21 +51,33 @@ export default function Footer() {
                 viewport={{ once: true }}
                 transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
             >
-                <p className="max-w-60">Making every customer feel valued—no matter the size of your audience.</p>
-                <div className="flex items-center gap-4 mt-3">
-                    <a href="#!" rel="noreferrer">
-                        <DribbbleIcon className="size-5 hover:text-pink-500" />
-                    </a>
-                    <a href="#!" rel="noreferrer">
-                        <LinkedinIcon className="size-5 hover:text-pink-500" />
-                    </a>
-                    <a href="#!" rel="noreferrer">
-                        <TwitterIcon className="size-5 hover:text-pink-500" />
-                    </a>
-                    <a href="#!" rel="noreferrer">
-                        <YoutubeIcon className="size-6 hover:text-pink-500" />
-                    </a>
+                <p className="max-w-60">Belleza que inspira confianza, cuidando cada detalle de ti.</p>
+                <div className="flex items-center gap-5 mt-3">
+                <a
+                    href="https://www.instagram.com/cosmeticos_aya/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                     <FaInstagram className="text-[25px] hover:text-pink-500 transition" />
+                </a>
+
+                <a
+                    href="https://www.facebook.com/cosmeticosaya2013"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaFacebook className="text-[25px] hover:text-pink-500 transition" />
+                </a>
+
+                <a
+                    href="https://wa.me/573001234567"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaWhatsapp className="text-[25px] hover:text-green-500 transition" />
+                </a>
                 </div>
+
                 <p className="mt-3 text-center">&copy; {new Date().getFullYear()} <a href="https://prebuiltui.com?utm_source=pixels" target="_blank">PrebuiltUI</a> • Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
             </motion.div>
         </footer>
