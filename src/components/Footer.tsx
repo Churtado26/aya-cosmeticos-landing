@@ -18,7 +18,7 @@ export default function Footer() {
                 </a>
                 {footerData.map((section, index) => (
                     <div key={index}>
-                        <p className="text-slate-100 font-semibold">{section.title}</p>
+                        <p className="max-w-60 font-semibold">{section.title}</p>
                         <ul className="mt-2 space-y-2">
                             {section.links.map((link: IFooterLink, index: number) => (
                                 <li key={index}>
@@ -27,14 +27,14 @@ export default function Footer() {
                                             href={link.href}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="hover:text-pink-600 transition"
+                                            className="main-color transition"
                                         >
                                             {link.name}
                                         </a>
                                         ) : (
                                         <Link
                                             to={link.href}
-                                            className="hover:text-pink-600 transition"
+                                            className="main-color transition"
                                         >
                                             {link.name}
                                         </Link>
@@ -51,14 +51,14 @@ export default function Footer() {
                 viewport={{ once: true }}
                 transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
             >
-                <p className="max-w-60">Belleza que inspira confianza, cuidando cada detalle de ti.</p>
+                <p className="max-w-60 italic font-semibold">"Belleza profesional en cada producto."</p>
                 <div className="flex items-center gap-5 mt-3">
                 <a
                     href="https://www.instagram.com/cosmeticos_aya/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                     <FaInstagram className="text-[25px] hover:text-pink-500 transition" />
+                     <FaInstagram className="text-[25px] main-color transition" />
                 </a>
 
                 <a
@@ -66,7 +66,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaFacebook className="text-[25px] hover:text-pink-500 transition" />
+                    <FaFacebook className="text-[25px] main-color transition" />
                 </a>
 
                 <a
@@ -74,11 +74,11 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FaWhatsapp className="text-[25px] hover:text-green-500 transition" />
+                    <FaWhatsapp className="text-[25px] main-color transition" />
                 </a>
                 </div>
 
-                <p className="mt-3 text-center">&copy; {new Date().getFullYear()} <a href="https://prebuiltui.com?utm_source=pixels" target="_blank">PrebuiltUI</a> • Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
+                <p className="mt-3 text-center text-slate-400"> &copy; By César Hurtado • {new Date().getFullYear()}</p>
             </motion.div>
         </footer>
     );

@@ -17,12 +17,12 @@ export default function Navbar() {
                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
                 <a href="#">
-                    <img className="h-8.5 w-auto" src="/pixels-reactjs/assets/imageaya.jpg" alt="logo" width={130} height={34} />
+                    <img className="h-21 w-auto" src="/pixels-reactjs/assets/LogoVital.png" alt="Vital Bell Distribuciones"/>
                 </a>
 
-                <div className="hidden md:flex items-center gap-8 transition duration-500">
+                <div className="hidden md:flex items-center gap-8 transition text-lg font-medium duration-500">
                     {navlinks.map((link: INavLink) => (
-                        <a href={link.href} className="hover:text-pink-500 transition">{link.name}</a>
+                        <a href={link.href} className="main-color transition">{link.name}</a>
                     ))}
                 </div>
 
@@ -30,7 +30,7 @@ export default function Navbar() {
                 href="https://wa.me/573042412575"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden md:block px-6 py-2.5 bg-pink-600 hover:bg-pink-700 active:scale-95 transition-all rounded-full text-white"
+                className="hidden md:block px-6 py-2.5 main-bg-color active:scale-95 transition-all rounded-full text-white"
                 >
                 Contáctanos
                 </a>
