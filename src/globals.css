@@ -36,3 +36,15 @@ button {
 .main-bg-color:hover {
     background-color: rgba(72, 0, 145, 1);
 }
+
+.main-border-color {
+    border-color: rgba(91, 0, 183, 1);
+}
+
+.main-border-color:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+.main-icon-color {
+    color: rgba(91, 0, 183, 1);
+}

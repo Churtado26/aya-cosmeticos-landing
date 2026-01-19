@@ -7,8 +7,8 @@ import type { IFeature } from "../types";
 
 export default function FeaturesSection() {
     return (
-        <div id="features" className="px-4 md:px-16 lg:px-24 xl:px-32">
-            <SectionTitle text1="Features" text2="What you get" text3="Components, patterns and pages — everything you need to ship." />
+        <div id="productos" className="px-4 md:px-16 lg:px-24 xl:px-32">
+            <SectionTitle text1="Productos" text2="What you get" text3="Components, patterns and pages — everything you need to ship." />
             <div className="flex flex-wrap items-center justify-center gap-6 md:gap-4 mt-16 px-6">
                 {featuresData.map((feature: IFeature, index: number) => (
                     <motion.div key={index} className={`${index === 1 ? 'p-px rounded-[13px] bg-linear-to-br from-pink-600 to-slate-800' : ''}`}
@@ -30,7 +30,7 @@ export default function FeaturesSection() {
                 ))}
             </div>
             <div className="mt-40 relative mx-auto max-w-5xl">
-                <div className="absolute -z-50 size-100 -top-10 -right-20 aspect-square rounded-full main-bg-color blur-[200px]"></div>
+                <div className="absolute -z-50 size-100 -top-10 -right-20 aspect-square rounded-full main-bg-color blur-[190px]"></div>
                 <motion.p className="text-slate-300 text-lg text-left max-w-3xl"
                     initial={{ y: 150, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
