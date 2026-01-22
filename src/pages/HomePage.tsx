@@ -1,7 +1,6 @@
 import HeroSection from "../sections/HeroSection";
 import ProductsSection from "../sections/ProductsSection";
-import TestimonialSection from "../sections/TestimonialSection";
-import PricingSection from "../sections/PricingSection";
+import AboutSection from "../sections/AboutSection";
 import ContactSection from "../sections/ContactSection";
 import CTASection from "../sections/CTASection";
 
@@ -10,8 +9,7 @@ export default function HomePage() {
         <>
             <HeroSection />
             <ProductsSection />
-            <TestimonialSection />
-            <PricingSection />
+            <AboutSection/>
             <ContactSection />
             <CTASection />
         </>
