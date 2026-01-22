@@ -29,7 +29,7 @@ export default function HeroSection() {
                 <span className="bg-violet-700 text-white text-xs px-3.5 py-1 rounded-full">
                     NUEVO
                 </span>
-                <p className="flex items-center gap-1 text-sm">
+                <p className="flex items-center gap-1 text-sm gray-color-text">
                     Distribución de cosméticos en Colombia
                     <ChevronRightIcon size={16} />
                 </p>
@@ -53,7 +53,7 @@ export default function HeroSection() {
 
             {/* Subtitle */}
             <motion.p
-                className="text-base text-center text-slate-300 max-w-lg mt-6"
+                className="text-base text-center text-slate-300 max-w-lg mt-6 gray-color-text"
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
@@ -99,7 +99,7 @@ export default function HeroSection() {
                         transition={{ delay: index * 0.15 }}
                     >
                         <CheckIcon className="size-5 main-icon-color" />
-                        <span className="text-slate-400">{benefit}</span>
+                        <span className="gray-color-text">{benefit}</span>
                     </motion.p>
                 ))}
             </div>

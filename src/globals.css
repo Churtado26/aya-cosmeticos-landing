@@ -48,3 +48,15 @@ button {
 .main-icon-color {
     color: rgba(91, 0, 183, 1);
 }
+
+.gray-color-text {
+    color: rgba(71, 85, 105, 1);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

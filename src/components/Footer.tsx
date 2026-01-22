@@ -54,7 +54,7 @@ export default function Footer() {
                 <p className="max-w-60 italic font-semibold">"Belleza profesional en cada producto."</p>
                 <div className="flex items-center gap-5 mt-3">
                 <a
-                    href="https://www.instagram.com/cosmeticos_aya/"
+                    href="https://www.instagram.com/vitalbell/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
