@@ -16,7 +16,7 @@ export default function Navbar() {
                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
                 <a href="#">
-                    <img className="h-21 w-auto" src="/pixels-reactjs/assets/LogoVital.png" alt="Vital Bell Distribuciones"/>
+                    <img className="h-21 w-auto" src="/assets/LogoVital.png" alt="Vital Bell Distribuciones"/>
                 </a>
 
                 <div className="hidden md:flex items-center gap-8 transition text-lg font-medium duration-500">

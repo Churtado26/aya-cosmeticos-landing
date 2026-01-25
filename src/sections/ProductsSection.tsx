@@ -5,39 +5,39 @@ import { Download } from "lucide-react";
 import { Sparkles } from "lucide-react";
 
 const nikolsImages = [
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0003.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0004.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0005.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0006.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0007.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0008.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0009.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0010.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0011.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0012.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0013.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0014.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0015.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0016.jpg",
-    "public/assets/nikols/CATALOGO VITAL BELL_page-0017.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0003.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0004.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0005.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0006.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0007.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0008.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0009.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0010.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0011.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0012.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0013.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0014.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0015.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0016.jpg",
+    "/assets/nikols/CATALOGO VITAL BELL_page-0017.jpg",
 ];
 
 const belierImages = [
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0009.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0010.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0011.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0012.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0013.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0014.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0015.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0016.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0017.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0018.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0019.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0020.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0021.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0022.jpg",
-    "public/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0023.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0009.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0010.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0011.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0012.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0013.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0014.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0015.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0016.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0017.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0018.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0019.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0020.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0021.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0022.jpg",
+    "/assets/belier/catalogo DIGITAL comercial BELIERIMG_compressed_page-0023.jpg",
 ];
 
 export default function ProductsSection() {
@@ -84,7 +84,7 @@ export default function ProductsSection() {
                 <ImageCarousel images={nikolsImages} />
 
                 <a
-                    href="public/assets/nikols/catalogo-nikols.pdf"
+                    href="/assets/nikols/catalogo-nikols.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 mt-8 main-bg-color text-white rounded-full px-6 py-3 transition"
@@ -114,7 +114,7 @@ export default function ProductsSection() {
                 <ImageCarousel images={belierImages} />
 
                 <a
-                    href="public/assets/belier/catalogo-belier.pdf"
+                    href="/assets/belier/catalogo-belier.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 mt-8 main-bg-color text-white rounded-full px-6 py-3 transition"

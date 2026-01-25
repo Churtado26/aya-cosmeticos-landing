@@ -14,7 +14,7 @@ export default function Footer() {
                 transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
             >
                 <a href="#" className="self-center">
-                    <img className="size-20 aspect-square" src="/pixels-reactjs/assets/FooterLogo.png" alt="footer logo"/>
+                    <img className="size-20 aspect-square" src="/assets/FooterLogo.png" alt="footer logo"/>
                 </a>
                 {footerData.map((section, index) => (
                     <div key={index}>
