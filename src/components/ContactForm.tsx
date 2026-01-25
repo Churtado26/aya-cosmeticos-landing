@@ -60,7 +60,7 @@ export const ContactForm = () => {
             initial={{ opacity: 0, y: -10 }} 
             animate={{ opacity: 1, y: 0 }} 
             exit={{ opacity: 0, y: -10 }}
-            className="bg-red-500/10 border border-red-500/50 text-red-300 px-4 py-3 rounded-lg text-sm"
+            className="bg-red-500/10 border border-red-500/50 text-red-400 px-4 py-3 rounded-lg text-sm"
           >
             ⚠️ {errorMessage}
           </motion.div>

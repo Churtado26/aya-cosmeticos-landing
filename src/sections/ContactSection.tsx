@@ -21,7 +21,7 @@ export default function ContactSection() {
             de la belleza con productos confiables y asesoría cercana.
             Escríbenos y recibe atención personalizada.
           </p>
-          
+
           <div className="space-y-5">
             <ContactInfoItem icon={<MapPinIcon />} text="Piedecuesta, Santander – Colombia" />
             <ContactInfoItem icon={<PhoneIcon />} text="Atención vía WhatsApp" />
