@@ -57,7 +57,7 @@ export default function ProductsSection() {
                 <h2 className="text-5xl font-medium text-whitemove-gradient px-3 rounded-xl text-nowrap italic font-semibold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-violet-500 to-indigo-500">
                     Nuestras marcas
                 </h2>
-                <p className="text-slate-400 mt-4 gray-color-text">
+                <p className="text-slate-400 mt-4 gray-color-text text-base">
                     Distribuimos productos cosméticos de alta calidad,
                     seleccionados para cuidar cada detalle.
                 </p>
@@ -65,18 +65,18 @@ export default function ProductsSection() {
 
             {/* Nikols */}
             <motion.div
-                className="mt-24 rounded-3xl border border-slate-800 bg-slate-950/60 p-8"
+                className="mt-24 rounded-3xl border border-slate-800 gray-color-square p-8"
                 initial={{ y: 80, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
             >
                 <div className="flex items-center gap-3 mb-2">
                     <Sparkles className="size-6 text-violet-400" />
-                    <h3 className="text-3xl text-white font-medium italic">
+                    <h3 className="text-3xl text-black font-medium italic">
                         Nikol's
                     </h3>
                 </div>
-                <p className="text-slate-300 mt-2 max-w-xl text-base">
+                <p className="gray-color-text mt-2 max-w-xl text-base">
                     Línea profesional de productos capilares y de cuidado personal,
                     reconocida por su calidad y resultados.
                 </p>
@@ -96,18 +96,18 @@ export default function ProductsSection() {
 
             {/* Belier */}
             <motion.div
-                className="mt-20 rounded-3xl border border-slate-800 bg-slate-950/60 p-8"
+                className="mt-20 rounded-3xl border border-slate-800 gray-color-square p-8"
                 initial={{ y: 80, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
             >
                 <div className="flex items-center gap-3 mb-2">
                     <Sparkles className="size-6 text-violet-400" />
-                    <h3 className="text-3xl text-white font-medium italic">
+                    <h3 className="text-3xl text-black font-medium italic">
                         Belier
                     </h3>
                 </div>
-                <p className="text-slate-300 mt-2 max-w-xl text-base">
+                <p className="gray-color-text mt-2 max-w-xl text-base">
                     Productos cosméticos pensados para realzar la belleza natural.
                 </p>
 

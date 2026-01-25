@@ -53,10 +53,22 @@ button {
     color: rgba(71, 85, 105, 1);
 }
 
+.gray-color-square {
+    background-color: rgb(212, 212, 212);
+}
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.focus-within\:main-border-color:focus-within {
+    border-color: rgba(91, 0, 183, 1);
 }

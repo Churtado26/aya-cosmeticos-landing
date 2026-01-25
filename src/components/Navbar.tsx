@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { navlinks } from "../data/navlinks";
 import type { INavLink } from "../types";
-import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +26,7 @@ export default function Navbar() {
                 </div>
 
                 <a
-                href="https://wa.me/573042412575"
+                href="https://wa.me/573015026353"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden md:block px-6 py-2.5 main-bg-color active:scale-95 transition-all rounded-full text-white"

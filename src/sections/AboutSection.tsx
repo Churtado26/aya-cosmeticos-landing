@@ -90,11 +90,11 @@ export default function AboutSection() {
           {values.map((item, index) => (
             <div
               key={index}
-              className="rounded-2xl border border-slate-800 bg-slate-950/60 p-6"
+              className="rounded-2xl border border-slate-800 gray-color-square p-6"
             >
               <div className="mb-3">{item.icon}</div>
-              <h4 className="text-white font-medium">{item.title}</h4>
-              <p className="text-slate-400 text-sm mt-2">
+              <h4 className="text-black font-medium">{item.title}</h4>
+              <p className="gray-color-text text-sm mt-2">
                 {item.description}
               </p>
             </div>

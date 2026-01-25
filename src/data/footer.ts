@@ -13,8 +13,8 @@ export const footerData: IFooter[] = [
     {
         title: "Síguenos",
         links: [
-            { name: "Instagram", href: "https://www.instagram.com/cosmeticos_aya/" },
-            { name: "Facebook", href: "https://www.facebook.com/cosmeticosaya2013" },
+            { name: "Instagram", href: "https://www.instagram.com/vitalbell/" },
+            { name: "Facebook", href: "https://www.facebook.com/vitalbelldistribuciones" },
         ]
     },
 ];

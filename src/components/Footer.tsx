@@ -31,6 +31,13 @@ export default function Footer() {
                                         >
                                             {link.name}
                                         </a>
+                                        ) : link.href.startsWith("#") ? (
+                                        <a
+                                            href={link.href}
+                                            className="main-color transition"
+                                        >
+                                            {link.name}
+                                        </a>
                                         ) : (
                                         <Link
                                             to={link.href}
@@ -62,7 +69,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                    href="https://www.facebook.com/cosmeticosaya2013"
+                    href="https://www.facebook.com/vitalbelldistribuciones"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -70,7 +77,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                    href="https://wa.me/573001234567"
+                    href="https://wa.me/573015026353"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

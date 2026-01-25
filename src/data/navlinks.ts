@@ -1,4 +1,3 @@
-import type { INavLink } from "../types";
 
 export const navlinks = [
     { name: "Inicio", href: "#" },
