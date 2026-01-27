@@ -69,8 +69,8 @@ export default function AboutSection() {
           <p className="text-slate-300 leading-relaxed gray-color-text">
             Somos una empresa ubicada en <strong>Piedecuesta, Santander</strong> con mas de 10 años de
             trayectoria en la distribución de productos cosméticos profesionales.
-            Trabajamos con marcas reconocidas como <strong>Nikol's</strong> y{" "}
-            <strong>Belier</strong>, acompañando a profesionales y clientes que
+            Trabajamos con marcas reconocidas como <strong>Nikol's</strong>,{" "}
+            <strong>Belier</strong> y <strong>MyK</strong>, acompañando a profesionales y clientes que
             entienden el cuidado personal como una experiencia consciente, confiable y de alto valor.
           </p>
 

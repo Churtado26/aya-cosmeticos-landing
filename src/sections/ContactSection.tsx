@@ -25,7 +25,7 @@ export default function ContactSection() {
           <div className="space-y-5">
             <ContactInfoItem icon={<MapPinIcon />} text="Piedecuesta, Santander – Colombia" />
             <ContactInfoItem icon={<PhoneIcon />} text="Atención vía WhatsApp" />
-            <ContactInfoItem icon={<MailIcon />} text="contacto@vitalbell.com" />
+            <ContactInfoItem icon={<MailIcon />} text="vitalbelldistribuciones@gmail.com" />
           </div>
 
           <a href="https://wa.me/573015026353" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 main-bg-color text-white px-6 py-3 rounded-full transition">
